@@ -1,0 +1,27 @@
+{
+	"start": "apartment_br",
+	"nodes": {
+		"apartment_br": {
+			"title": "Apartment - Bedroom",
+			"text": "You are in your apartment's only bedroom. The living room is north.",
+			"commands": {
+				"north": "goto apartment_lr"
+			}
+		},
+		"apartment_lr": {
+			"title": "Apartment - Living Room",
+			"text": "You are in your living room. There is a {book} you bought yesterday on the table. You haven't started it yet, but you liked the cover. South is your bedroom. West is the hallway.",
+			"commands": {
+				"south": "goto apartment_br",
+				"west": "goto hallway"
+			}
+		},
+		"hallway_2f": {
+			"title": "Hallway - 2nd Floor",
+			"text": "You are in the hallway on the second floor of your apartment building. East is your living room. Down is the first floor.",
+			"commands": {
+				"east": "goto apartment_lr"
+			}
+		}
+	}
+}

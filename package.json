@@ -1,0 +1,22 @@
+{
+  "name": "baiwen",
+  "version": "1.0.0",
+  "description": "Text-based adventure game maker",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bgun/baiwen.git"
+  },
+  "author": "Ben Gundersen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgun/baiwen/issues"
+  },
+  "homepage": "https://github.com/bgun/baiwen",
+  "dependencies": {
+    "prompt": "^0.2.14"
+  }
+}
